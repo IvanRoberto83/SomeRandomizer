@@ -14,7 +14,7 @@ print("7. UTS7: Digimon")
 
 nim = input("\nMasukkan NIM Kamu: ")
 
-seed = "UTS_PBO_2026"
+seed = "BAKAL DIUNDI DI HARI-H YAK"
 random.seed(seed + nim)
 
 soal = random.sample(range(1, 8), 2)
